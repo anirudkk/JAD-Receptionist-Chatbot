@@ -1,0 +1,227 @@
++ start
+- Hello, I am JADbot. How may i help you?<br> 
+^ <button onclick="chatbot.getReply('[*] admission [*]')" class= "selection-btn">Admission Enquiry</button><br>
+^ <button onclick="chatbot.getReply('[*] navigation [*]')" class= "selection-btn">Navigation</button><br>
+^ <button onclick="chatbot.getReply('[*] about [*]')" class= "selection-btn">About College</button><br>
+^ <button onclick="chatbot.getReply('[*] bus [*]')" class= "selection-btn">Bus Routes</button> 
+
++ [*] admission [*]
+- Admission Enquiry
+^ <button onclick="chatbot.getReply('[*] fees [*]')" class= "selection-btn" style="chat_style.css"> Admission profile</button><br>
+^ <button onclick="chatbot.getReply('[*] counselling code [*]')" class= "selection-btn" style="chat_style.css">Counselling code</button><br>
+^ <button onclick="chatbot.getReply('[*] eligibility and placements [*]')" class= "selection-btn" style="chat_style.css">Eligiblility and Placements</button>
+
++ [*] counselling code [*]
+- Our Counselling code: ____
+
++ [*] eligibility and placements [*]
+- To know the Eligiblity: <a href= "dummy.html">click here</a><br>
+^ Our Placements: <a href="dummy.html">click here</a>
+
++ [*] eligibility [*]
+- To know the Eligiblity: <a href= "dummy.html">click here</a><br>
+^ Our Placements: <a href="dummy.html">click here</a>
+
++ [*] placements [*]
+- To know the Eligiblity: <a href= "dummy.html">click here</a><br>
+^ Our Placements: <a href="dummy.html">click here</a>
+
++ [*] admission details [*]
+- Create your admission profile : <a href="https://docs.google.com/forms/d/e/1FAIpQLSfx8-ejgp8jJ8_otIA_2g61Wt7meCj7rNUCl9sOzbeZCy1epw/viewform?usp=sharing">Click Here</a>
+
++ [*] fees [*]
+- Create your admission profile : <a href="https://docs.google.com/forms/d/e/1FAIpQLSfx8-ejgp8jJ8_otIA_2g61Wt7meCj7rNUCl9sOzbeZCy1epw/viewform?usp=sharing">Click Here</a>
+
++ [*] navigation [*]
+- Choose where you want to go<br> 
+^ <button onclick="chatbot.getReply('[*] auditorium [*]')" class= "selection-btn" style="chat_style.css">Auditorium</button><br>
+^ <button onclick="chatbot.getReply('[*] central library [*]')" class= "selection-btn" style="chat_style.css">Central Library</button><br>
+^ <button onclick="chatbot.getReply('[*] mess [*]')" class= "selection-btn" style="chat_style.css">Mess</button><br>
+^ <button onclick="chatbot.getReply('[*] boys [*]')" class= "selection-btn" style="chat_style.css">Boys Hostel</button><br>
+^ <button onclick="chatbot.getReply('[*] girls [*]')" class= "selection-btn" style="chat_style.css">Girls Hostel</button><br>
+^ <button onclick="chatbot.getReply('[*] csbs [*]')" class= "selection-btn" style="chat_style.css">CSBS Department</button><br>
+^ <button onclick="chatbot.getReply('[*] cse1 [*]')" class= "selection-btn" style="chat_style.css">CSE Block 1</button><br>
+^ <button onclick="chatbot.getReply('[*] cse2 [*]')" class= "selection-btn" style="chat_style.css">CSE Block 2</button><br>
+^ <button onclick="chatbot.getReply('[*] ece [*]')" class= "selection-btn" style="chat_style.css">ECE Department</button><br>
+^ <button onclick="chatbot.getReply('[*] eee [*]')" class= "selection-btn" style="chat_style.css">EEE Department</button><br>
+^ <button onclick="chatbot.getReply('[*] civil [*]')" class= "selection-btn" style="chat_style.css">CIVIL Department</button><br>
+^ <button onclick="chatbot.getReply('[*] mba [*]')" class= "selection-btn" style="chat_style.css">MBA&AIDS Department</button><br>
+^ To explore the full map: <a href="map.html">Click here</a>
+
++ [*] auditorium [*]
+-<img src="auditorium.jpg" height= auto width= 349>
+^<b>For Auditorium :</b> Go straight and enter the CSBS department then take the stairs on your right to first floor. 
+
++ [*] central [*]
+-<img src="central_library.jpg" height= auto width= 349>
+^<b>For Central Library :</b> Go straight till the last and enter the CSBS department then take right, you will find the sign board for central library. 
+
++ [*] library [*]
+-<img src="central_library.jpg" height= auto width= 349>
+^<b>For Central Library :</b> Go straight till the last and enter the CSBS department then take right, you will find the sign board for central library. 
+
++ [*] mess [*]
+-<img src="mess.jpg" height= auto width= 349>
+^<b>For Mess :</b> Take the first left and follow the path, walk pass through the Boys Hostel for some distance, the next building on your left is the mess.
+
++ [*] hostel [*]
+-<img src="boys_hostel.jpg" height= auto width= 349>
+^<b>For Boys Hostel :</b> Take the first left and follow the path, the first building on your left is the Boys Hostel.
+^<img src="girls_hostel.jpg" height= auto width= 349>
+^<b>For Girls Hostel :</b> Go straight till the last then take right before CSBS department and walk a few distance for the girls hostel.
+
++ [*] boys [*]
+-<img src="boys_hostel.jpg" height= auto width= 349>
+^<b>For Boys Hostel :</b> Take the first left and follow the path, first building on your left is the Boys Hostel.
+
++ [*] girls [*]
+-<img src="girls_hostel.jpg" height= auto width= 349>
+^<b>For Girls Hostel :</b> Go straight till CSBS department then take right and walk a few distance for the girls hostel.
+
++ [*] csbs [*]
+-<img src="csbs.jpg" height= auto width= 349>
+^<b>For CSBS department :</b> Go straight till the last block.
+
++ [*] cse1 [*]
+-<img src="cse1.jpg" height= auto width= 349>
+^ <b>For CSE block 1 : </b> Go straight, take the second left then on your immediate left you will find CSE block 1.
+
++ [*] cse boys [*]
+-<img src="cse1.jpg" height= auto width= 349>
+^ <b>For CSE block 1 : </b> Go straight, take the second left then on your immediate left you will find CSE block 1.
+
++ [*] cse2 [*]
+-<img src="cse2.jpg" height= auto width= 349>
+^<b>For CSE block 2 :</b> Go straight, take the second left and walk some distance, now turn right, on your left you will find CSE block 2.
+
++ [*] cse girls [*]
+-<img src="cse2.jpg" height= auto width= 349>
+^<b>For CSE block 2 :</b> Go straight, take the second left and walk some distance, now turn right, on your left you will find CSE block 2.
+
++ [*] cse [*]
+-<img src="cse1.jpg" height= auto width= 349>
+^ <b>For CSE block 1 : </b> Go straight, take the second left then on your immediate left you will find CSE block 1.
+^<img src="cse2.jpg" height= auto width= 349>
+^<b>For CSE block 2 :</b> Go straight, take the second left and walk some distance, now turn right, on your left you will find CSE block 2.
+
++ [*] ece [*]
+-<img src="ece.jpg" height= auto width= 349>
+^<b>For ECE department :</b> Go straight, take the third left on your immediate right you will find ECE dept.
+
++ [*] eee [*]
+-<img src="eee.jpg" height= auto width= 349>
+^<b>For EEE department :</b> Go straight, take the fourth left and walk some distance then take right, on your left you will find EEE dept.
+
++ [*] civil [*]
+-<img src="civil.jpg" height= auto width= 349>
+^<b>For CIVIL department :</b> Go straight, Take the first right and turn left then walk straight till lab 4, on your right you will find CIVIL dept.
+
++ [*] mba [*]
+-<img src="mba.jpg" height= auto width= 349>
+^<b>For MBA & AI_DS department :</b> Go straight, Take the first right and then turn the immediate left then on your left you will see MBA & AI_DS dept.
+
++ [*] aids [*]
+-<img src="mba.jpg" height= auto width= 349>
+^<b>For MBA & AI_DS department :</b> Go straight, Take the first right and then turn the immediate left then on your left you will see MBA & AI_DS dept.
+
++ [*] artificial [*]
+-<img src="mba.jpg" height= auto width= 349>
+^<b>For MBA & AI_DS department :</b> Go straight, Take the first right and then turn the immediate left then on your left you will see MBA & AI_DS dept.
+
++ [*] map [*]
+- To explore the full map: <a href="map.html">Click here</a>
+
++ [*] about [*]
+- ABC College, an Institution aims at imparting quality education for the aspiring youth. For more details: <a href="dummy.html">Click Here</a>
+
++ [*] bus [*]
+- Select your area<br>
+^ <button onclick="chatbot.getReply('[*] amarambedu [*]')" class= "selection-btn">Amarambedu</button><br>
+^ <button onclick="chatbot.getReply('[*] arakonam [*]')" class= "selection-btn">Arakonam</button><br>
+^ <button onclick="chatbot.getReply('[*] gummidipoondi [*]')" class= "selection-btn">Gummidipoondi</button><br>
+^ <button onclick="chatbot.getReply('[*] kadambathur [*]')" class= "selection-btn">Kadambathur</button><br>
+^ <button onclick="chatbot.getReply('[*] perambur [*]')" class= "selection-btn">Perambur</button><br>
+^ <button onclick="chatbot.getReply('[*] tambaram [*]')" class= "selection-btn" >Tambaram</button><br>
+^ <button onclick="chatbot.getReply('[*] tvknagar [*]')" class= "selection-btn">Tvk nagar</button><br>
+^ <button onclick="chatbot.getReply('[*] wavin [*]')" class= "selection-btn">Wavin</button><br>
+^ For more information: <a href="dummy.html">Click here</a>
+
++ [*] tambaram [*]
+- Bus no. 6 <br>
+^ Tambaram - Camp road
+
++ [*] amarambedu [*]
+- Bus no. 61, 40, 8 <br>
+^ Amarambedu via mangadu
+
++ [*] arakonam [*]
+- Bus no. 67, 78, 73 <br>
+^ Arakonam
+
++ [*] gummidipoondi [*]
+- Bus no. 29 <br>
+^ Gummidipoondi 
+
++ [*] kadambathur [*]
+- Bus no. 30 <br>
+^ Kadambathur via Thiruvallur
+
++ [*] perambur [*]
+- Bus no. 91 <br>
+^ Perambur via periyar nagar
+
++ [*] tvknagar [*]
+- Bus no. 64 <br>
+^ Tvk nagar
+
++ [*] wavin [*]
+- Bus no. 4, 12 <br>
+^ Wavin
+
++ hello
+- Hello there!
+
++ hi
+- Hello there!
+
++ hey
+- Hello there!
+
++ hola
+- Hello there!
+
++ howdy
+- Hello there!
+
++ bonjour
+- Hello there!
+
++ good morning
+- good morning!
+
++ how are you
+- I'm great
+- I'm good
+^How are you?
+- Good :) 
+^How are you?
+- Great!
+^How are you?
+- I'm fine, thanks for asking!
+
++ what is your name
+- You can call me JADbot.
+- My name is JADbot.
+
++ how old are you
+- I am 1 day old.
+
++ my name is *
+- Nice to meet you, <star1>!
+
++ *
+- I'm not sure how to reply to that.
+- Try asking your question a different way.
+
++ [*] bye [*]
+- Goodbye!

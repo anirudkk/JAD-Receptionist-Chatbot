@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+body {
+    background: linear-gradient(155deg, #03dcff, #2d2d2d);
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: small;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    line-height: 1.7em;
+    display: block;
+  }
+
+  .wrapper {
+    max-width: 450px;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    background-color: rgba(255,255,255,.1);
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(255,255,255,.2);
+    border-right: 1px solid rgba(255,255,255,.2);
+  }
+  
+  form {
+    flex: 5;
+    display: block;
+    padding: 15px;
+  }
+
+  
+   /* JAD-BOT */
+   h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #ffffff;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+  h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  /* === HEADING STYLE #1 === */
+  .one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+  .one h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #b80000;
+  }
+  .one h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+  }
+  
+/* Profile Picture */
+.css-border {
+    position: relative;
+    top: 75px;
+    left: 125px;
+    border: 4px solid #000000;
+    padding: 2px;
+    border-radius: 80%;
+    border-top-color: #b80000;
+    border-left-color: #b80000;
+    width: 150px;
+    height: 150px;
+  }
+
+  /* text */
+  .txt{
+    position: relative;
+    left: 0px;
+    top: 125px;
+    font-family: "Times New Roman";
+    text-align: center;
+  }
+  
+/* Button Lets chat */
+  span{
+    position: relative;
+    top: 175px;
+    left: 120px;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    perspective: 1000px;
+  }
+  span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  span a:before,
+  span a:after{
+    position: absolute;
+    content: "Let's Chat";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  span a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  span a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
